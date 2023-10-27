@@ -1,0 +1,70 @@
+Crear sitio web simple.
+
+Default (GPT-3.5)
+
+User
+Simple coding website using Html and css
+
+ChatGPT
+Sure, here's a simple example of a basic website using HTML and CSS. This example includes a header, navigation menu, and a content section. You can use this as a starting point and expand upon it as needed:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to Our Website</h2>
+        <p>This is a simple website created using HTML and CSS.</p>
+    </div>
+</body>
+</html>
